@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
 import React from 'react'
 
 export default function Home (): React.ReactNode {
