@@ -14,6 +14,7 @@ class MyDocument extends Document {
     return { ...initialProps }
   }
 
+  // @ts-expect-error
   render (): React.ReactNode {
     return (
       <Html>
