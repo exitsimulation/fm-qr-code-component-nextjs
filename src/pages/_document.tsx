@@ -5,8 +5,8 @@ import Document, {
   Head,
   Main,
   NextScript,
-  DocumentContext
-} from 'next/document'
+  DocumentContext,
+} from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps (ctx: DocumentContext) {
@@ -14,7 +14,7 @@ class MyDocument extends Document {
     return { ...initialProps }
   }
 
-  render () {
+  render (): React.ReactNode {
     return (
       <Html>
         <Head>
