@@ -23,7 +23,8 @@
         "./src/*"
       ]
     },
-    "incremental": true
+    "incremental": true,
+    "strictNullChecks": true
   },
   "exclude": [
     "node_modules",

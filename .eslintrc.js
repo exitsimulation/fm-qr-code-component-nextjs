@@ -20,6 +20,7 @@ module.exports = {
     'react'
   ],
   rules: {
-    'prettier/prettier': 'off'
+    'prettier/prettier': 'off',
+    "@typescript-eslint/strict-boolean-expressions": "warn"
   }
 }
